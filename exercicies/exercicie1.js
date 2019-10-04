@@ -1,9 +1,8 @@
 "use strict";
 var employee = {
-    name: ['João', 'Maria', 'José']
+    name: ['João', 'Maria', 'José'],
+    point: function (hour) {
+        return (hour <= 8) ? 'Ponto normal' : 'Fora do horario';
+    }
 };
-console.log(employee.name[0]);
-var point = function (hour) {
-    return (hour <= 8) ? 'Ponto normal' : 'Fora do horario';
-};
-console.log(point(10));
+console.log(employee.point(10));
