@@ -8,8 +8,5 @@ class Data {
         this.month = month
         this.year = year
     }
-
-
-
 }
 const birthday = new Data(1, 12, 1998)
