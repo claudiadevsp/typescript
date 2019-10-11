@@ -1,7 +1,7 @@
 "use strict";
-var employee = {
+const employee = {
     name: ['João', 'Maria', 'José'],
-    point: function (hour) {
+    point(hour) {
         return (hour <= 8) ? 'Ponto normal' : 'Fora do horario22222';
     }
 };
