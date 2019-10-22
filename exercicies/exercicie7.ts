@@ -2,7 +2,7 @@ class Car {
     private actualVelocity: number  = 0
     constructor(public brand: string, public model: string, private maxVelocity: number = 200) 
     {} 
-    private velocityAlter(delta: number): number {
+    protected velocityAlter(delta: number): number {
         const velocityNew = this.actualVelocity + delta
         const validVelocity = velocityNew >= 0 && velocityNew <= this.maxVelocity
         if (validVelocity) {
