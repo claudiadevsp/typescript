@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "live-server"
+    "start": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "@types/node": "^12.11.5",
+    "live-server": "^1.2.1",
+    "systemjs": "^0.21.6"
   }
 }

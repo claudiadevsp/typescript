@@ -1,0 +1,1 @@
+export const rectangleArea = (base: number, height: number): number => base * height

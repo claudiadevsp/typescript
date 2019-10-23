@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,8 @@
     <title>TypeScript</title>
 </head>
 <body>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
     <!-- <script src="introduction/basic.js"></script> -->
     <!-- <script src="types/types.js"></script> -->
     <!-- <script src="exercicies/exercicie1.js"></script> -->
@@ -18,7 +20,22 @@
     <!-- <script src="exercicies/exercicie11.js"></script> -->
     <!-- <script src="exercicies/exercicie12.js"></script> -->    
     <!-- <script src="challenge/challenge2.js"></script> -->
-    <script src="challenge/challenge3.js"></script>
+    <!-- <script src="challenge/challenge3.js"></script> -->
+    <script src="namespaces/geometrycirc.js"></script>
+    <script src="namespaces/geometryrec.js"></script>
+    <script src="namespaces/namespace.js"></script>
+    <!-- <script src="modules/module.js"></script> -->
     </script>    
+    <script>
+        SystemJS.config({
+            baseUrl: '/modules',
+            packages: {
+                '/modules': {
+                    defaultJSExtension: true
+                }
+            }
+        })
+        SystemJS.import('./modules/module.js')
+    </script>
 </body>
 </html>
