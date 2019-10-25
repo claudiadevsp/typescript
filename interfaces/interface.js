@@ -18,7 +18,7 @@ var Hi;
     changeName(person);
     hi(person);
     //hi( { name:'TESTE', age:10, height: '1.65' } )
-    person.geet('Silva');
+    person.greet('Silva');
     class Client {
         constructor() {
             this.name = '';
