@@ -11,6 +11,6 @@ class Person {
         }
     }
 }
-const person = new Person
-person.age = 19
-console.log(person)
+// const person = new Person
+// person.age = 19
+// console.log(person)
