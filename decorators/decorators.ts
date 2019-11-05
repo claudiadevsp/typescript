@@ -33,6 +33,7 @@ function logObject(constructor: Constructor) {
         }
     }
 }
+
 new Eletrodomestic()
 new Eletrodomestic()
 new Eletrodomestic()
